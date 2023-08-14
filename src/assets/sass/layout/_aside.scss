@@ -1,0 +1,161 @@
+//
+// Aside extended
+//
+
+// General mode(all devices)
+.aside {
+	display: flex;
+	flex-direction: column;
+	width: get($aside-config, width, desktop);
+	border-right: 2px solid $gray-500 !important;
+	
+	// Root links
+	.menu {
+		align-items: stretch;
+		justify-content: center;
+		height: 100%;
+		margin-top: -10px;
+
+		> .menu-item {
+			&:last-child {
+				margin-top: auto;
+			}
+			> .menu-link {
+				padding: 0;
+
+				.menu-icon {
+					flex-direction: column;
+					flex-shrink: 0;
+					width: 110px;
+					height: 80px;
+					border-radius: 0;
+
+					i,
+					.svg-icon {
+						// color: $gray-500 !important;
+
+						color: var(--#{$prefix}gray-500);
+					}
+
+					p {
+						// color: $gray-500;
+
+						color: var(--#{$prefix}gray-500);
+						margin: 5px 0 0 0;
+					}
+				}
+									
+				&:hover {
+					.menu-icon {
+						// background-color: rgba($primary, 0.1);
+
+						background-color: var(--#{$prefix}primary-active);
+
+						i,
+						.svg-icon {
+							// color: $primary !important;
+
+							color: var(--#{$prefix}gray-400) !important;
+						}
+
+						p {
+							// color: $primary !important;
+
+							color: var(--#{$prefix}gray-400);
+						}
+					}
+				}
+
+				&.active {
+					.menu-icon {
+						// background-color: rgba($primary, 0.1);
+
+						background-color: var(--#{$prefix}primary-active);
+
+						i,
+						.svg-icon {
+							color: $primary !important;
+						}
+					}
+				}
+			}
+
+			&.here > .menu-link,
+			&.show > .menu-link {
+				.menu-icon {
+					// background-color: rgba($primary, 0.1);
+
+					background-color: var(--#{$prefix}primary-active);
+					border-left: 4px solid #E96000;
+
+					i,
+					.svg-icon {
+						// color: $primary !important;
+
+						color: var(--#{$prefix}gray-400);
+					}
+
+					p {
+						// color: $primary !important;
+
+						color: var(--#{$prefix}gray-400);
+					}
+				}
+			}
+
+		}
+		
+	}
+	.aside-footer {
+		background-color: var(--#{$prefix}$gray-300);
+		padding: 4px 15px;
+
+		p {
+			color: var(--#{$prefix}gray-500)
+		}
+	}
+
+	// Custom button
+	.btn-custom {
+		@include button-custom-variant(
+			$color: $white, 
+			$icon-color: $white, 
+			$border-color: null, 
+			$bg-color: null, 
+			$color-active: $white, 
+			$icon-color-active: $white, 
+			$border-color-active: null, 
+			$bg-color-active: rgba($white, 0.1)
+		);
+	}
+}
+
+// Desktop mode
+@include media-breakpoint-up(lg) {
+	.aside {
+		width: get($aside-config, width, desktop);
+
+		// Fixed aside mode
+		.aside-fixed & {
+			position: fixed;
+			top: 72px;
+			bottom: 0;
+			left: 0;
+			z-index: get($aside-config, z-index);
+		}
+
+		// Static aside mode
+		.aside-static & {
+			position: relative;
+			z-index: 1;
+		}
+	}
+}
+
+// Tablet & mobile modes
+@include media-breakpoint-down(lg) {
+	.aside {
+		display: none;
+		width: get($aside-config, width, tablet-and-mobile);
+	}
+}
