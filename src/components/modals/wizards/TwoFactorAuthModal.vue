@@ -298,6 +298,7 @@ import { getAssetPath } from "@/core/helpers/assets";
 import { defineComponent, ref } from "vue";
 import * as Yup from "yup";
 import { ErrorMessage, Field, Form as VForm } from "vee-validate";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 
 export default defineComponent({

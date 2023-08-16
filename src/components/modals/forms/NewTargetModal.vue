@@ -316,6 +316,7 @@
 import { getAssetPath } from "@/core/helpers/assets";
 import { defineComponent, ref } from "vue";
 import { hideModal } from "@/core/helpers/dom";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 
 interface NewAddressData {

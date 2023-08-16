@@ -73,6 +73,7 @@ import { defineComponent, ref } from "vue";
 import { ErrorMessage, Field, Form as VForm } from "vee-validate";
 import { useAuthStore } from "@/stores/auth";
 import * as Yup from "yup";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 
 export default defineComponent({

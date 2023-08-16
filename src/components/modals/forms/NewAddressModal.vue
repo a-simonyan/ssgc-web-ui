@@ -355,6 +355,7 @@ import { getAssetPath } from "@/core/helpers/assets";
 import { defineComponent, ref } from "vue";
 import { ErrorMessage, Field, Form as VForm } from "vee-validate";
 import { hideModal } from "@/core/helpers/dom";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import * as Yup from "yup";
 import { countries } from "@/core/data/countries";

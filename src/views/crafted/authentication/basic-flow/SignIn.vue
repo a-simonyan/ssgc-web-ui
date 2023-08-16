@@ -167,6 +167,7 @@ import { defineComponent, ref } from "vue";
 import { ErrorMessage, Field, Form as VForm } from "vee-validate";
 import { useAuthStore, type User } from "@/stores/auth";
 import { useRouter } from "vue-router";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import * as Yup from "yup";
 

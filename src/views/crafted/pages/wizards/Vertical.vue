@@ -244,6 +244,7 @@ import Step3 from "@/components/wizard/steps/Step3.vue";
 import Step4 from "@/components/wizard/steps/Step4.vue";
 import Step5 from "@/components/wizard/steps/Step5.vue";
 import { StepperComponent } from "@/assets/ts/components";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import * as Yup from "yup";
 import { useForm } from "vee-validate";

@@ -17,6 +17,7 @@ const routes: Array<RouteRecordRaw> = [
 
     path: "/",
     redirect: "/home",
+    //@ts-ignore
     component: () => import("@/layouts/main-layout/MainLayout.vue"),
     meta: {
       middleware: "auth",
@@ -25,6 +26,7 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: "/home",
         name: "home",
+        //@ts-ignore
         component: () => import("@/Components/home/Home.vue"),
         // meta: {
         //   pageTitle: "Dashboard",
@@ -35,12 +37,14 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/",
+    //@ts-ignore
     component: () => import("@/layouts/AuthLayout.vue"),
     children: [
       {
         path: "/sign-in",
         name: "sign-in",
         component: () =>
+          //@ts-ignore
           import("@/views/crafted/authentication/basic-flow/SignIn.vue"),
         meta: {
           pageTitle: "Sign In",
@@ -50,6 +54,7 @@ const routes: Array<RouteRecordRaw> = [
         path: "/sign-up",
         name: "sign-up",
         component: () =>
+          //@ts-ignore
           import("@/views/crafted/authentication/basic-flow/SignUp.vue"),
         meta: {
           pageTitle: "Sign Up",
@@ -59,6 +64,7 @@ const routes: Array<RouteRecordRaw> = [
         path: "/password-reset",
         name: "password-reset",
         component: () =>
+          //@ts-ignore
           import("@/views/crafted/authentication/basic-flow/PasswordReset.vue"),
         meta: {
           pageTitle: "Password reset",
@@ -68,12 +74,14 @@ const routes: Array<RouteRecordRaw> = [
   },
   {
     path: "/",
+    //@ts-ignore
     component: () => import("@/layouts/SystemLayout.vue"),
     children: [
       {
         // the 404 route, when none of the above matches
         path: "/404",
         name: "404",
+        //@ts-ignore
         component: () => import("@/views/crafted/authentication/Error404.vue"),
         meta: {
           pageTitle: "Error 404",
@@ -82,6 +90,7 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: "/500",
         name: "500",
+        //@ts-ignore
         component: () => import("@/views/crafted/authentication/Error500.vue"),
         meta: {
           pageTitle: "Error 500",

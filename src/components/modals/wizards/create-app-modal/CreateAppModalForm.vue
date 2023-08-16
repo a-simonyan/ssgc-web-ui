@@ -58,6 +58,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onMounted, ref } from "vue";
 
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import { useForm } from "vee-validate";
 import * as Yup from "yup";

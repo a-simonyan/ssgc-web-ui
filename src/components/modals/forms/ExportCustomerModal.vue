@@ -156,6 +156,7 @@
 <script lang="ts">
 import { getAssetPath } from "@/core/helpers/assets";
 import { defineComponent, reactive, ref, toRefs } from "vue";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 
 export default defineComponent({

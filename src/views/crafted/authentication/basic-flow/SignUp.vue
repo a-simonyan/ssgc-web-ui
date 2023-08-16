@@ -226,6 +226,7 @@ import * as Yup from "yup";
 import { useAuthStore, type User } from "@/stores/auth";
 import { useRouter } from "vue-router";
 import { PasswordMeterComponent } from "@/assets/ts/components";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 
 export default defineComponent({

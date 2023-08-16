@@ -1,5 +1,5 @@
 <template>
-    <div class="card-wrapper card pt-14 pb-14">
+    <div class="card-wrapper card pt-14 pb-14 mb-20">
         <div class="card-section">
             <div class="d-flex flex-column text-primary">
                 <p class="bodysmall">A SOURCE OF TRUTH</p>
@@ -22,11 +22,11 @@
         </div>
     </div>
 
-    <div class="section-container w-container mb-20">
+    <div class="section-container w-container" style="margin-bottom: 60px;">
         <div>
             <h2 class="section-title-h2">Philosophy</h2>
             <h4 class="heading-4 alignleft withtoppadding">Core message</h4>
-            <p class="body">
+            <p class="body mt-10">
                 Our core message puts technology and human excellence at the forefront, contrasting and complementing each other. Here and throughout the design and the business, the human element is put first: the wellbeing of our employees and of the clients we take care of are of the utmost importance. The technology serves a supporting role, using it to enable us to do more and to do more, more efficiently. 
                 <br>
                 <br>
@@ -45,7 +45,7 @@
                 </div>
             </div>
             <h4 class="heading-4 alignleft withtoppadding">Brand Pillars</h4>
-            <p class="body">
+            <p class="body mt-10">
                 Everything we do –&nbsp;that includes what we design –&nbsp;should express our brand pillars. The connection does not always have to be obvious. For example, it could be as subtle as choosing a &nbsp;modern CCTV&nbsp;camera instead of an older one; this would show that we are tech-forward and innovative. 
                 <br>
                 <br>
@@ -62,7 +62,7 @@
                 </template>
             </div>
             <h4 class="heading-4 alignleft withtoppadding">Building interfaces </h4>
-            <p class="body">
+            <p class="body mt-10">
                 SSGC user interfaces are built <em>atomically</em>. That is to say there are base units (like atoms) that are combined to create larger structures which in turn can create sections and entire pages. This allows us to easily create consistant and visually-appealing user interfaces whilst minimising &nbsp;design-time and integration complexity.
             </p>
             <div class="d-flex gap-10">
@@ -79,11 +79,11 @@
         
     </div>
 
-    <div class="section styleguide-section mb-20">
+    <div class="section styleguide-section" style="margin-bottom: 60px;">
         <div class="d-flex flex-column flex-center">
             <div class="styleguide-subheader-container">
                 <h2 class="section-header section-title-h2">Typography</h2>
-                <p class="body">Our brand font, for use in all communications and expressions of the brand, is Public Sans. It is a versatile modern type family designed by the U.S. Digital Service for legibility &amp; consistency. Like its primary inspiration (Libre Franklin), it has a friendly, but no-nonsense demeanour. The specifics weights in use can be downloaded from our 
+                <p class="body mt-10">Our brand font, for use in all communications and expressions of the brand, is Public Sans. It is a versatile modern type family designed by the U.S. Digital Service for legibility &amp; consistency. Like its primary inspiration (Libre Franklin), it has a friendly, but no-nonsense demeanour. The specifics weights in use can be downloaded from our 
                     <a href="https://tutandos.sharepoint.com/:f:/g/EoOIEgET23dNkQKOx8-E2e8BogiKySZnNazftkP2C-Sa3g?e=jxZ4qg">company Sharepoint here (preferred)</a>. 
                     the entire family can be downloaded from 
                     <a href="https://fonts.google.com/specimen/Public+Sans?query=public+sans" target="_blank">Google Fonts here</a>. 
@@ -123,11 +123,11 @@
         </div>
     </div>
 
-    <div class="section styleguide-section d-flex flex-center mb-20">
+    <div class="section styleguide-section d-flex flex-center" style="margin-bottom: 80px;">
         <div class="colours">
             <div class="mt-6 mb-3">
                 <h2 class="section-header section-title-h2">Colours</h2>
-                <p class="body">We carry forward the interaction between technology &amp; humanity.&nbsp;
+                <p class="body mt-10">We carry forward the interaction between technology &amp; humanity.&nbsp;
                     <br>
                     <br>
                     The vibrant, energetic &amp; warm oranges represent the human centered quality of the business.&nbsp; Using an orange for the logo provides uniqueness to the brand, setting it apart from its competitors. The formal, calming &amp; cool blue-greys communicate the trustworthy, reliable and well-structured values of the company. The range of tones chosen represent the modern &amp; technology-forward components of the company. <br><br>Note that even in the design, the shades of blue are placed in supporting roles (backgrounds, text) whereas the shades of orange are used in prominence (buttons, logo, links, call-out stats). Human excellence, supported by great technology.
@@ -156,7 +156,7 @@
         </div>
     </div>
 
-    <div class="section d-flex flex-column flex-center mb-20">
+    <div class="section d-flex flex-column flex-center" style="margin-bottom: 60px;">
         <div class="components-wrapper">
             <div class="components">
                 <h2 class="section-title-h2">Components</h2>
@@ -210,7 +210,7 @@
     
                 <div class="styleguide-subheader-container text-elements">
                     <h4 class="section-header heading-4-accent heading-4">Text Elements</h4>
-                    <p class="body">We use one font throughout the design:&nbsp;Public Sans. You can download it for free from 
+                    <p class="body mt-10">We use one font throughout the design:&nbsp;Public Sans. You can download it for free from 
                         <a href="https://fonts.google.com/specimen/Public+Sans?query=public+sans" target="_blank">Google Fonts here</a>.
                         <br>
                         <br>
@@ -244,8 +244,7 @@
                         <h4>Heading 4</h4>
                         <h4 class="heading-4-accent section-title-h4">Heading 4 Accent</h4>
                         <h5 class="heading-5">Heading 5</h5>
-                        <h6 class="heading-6"
->Heading 6</h6>
+                        <h6 class="heading-6">Heading 6</h6>
                         <div class="overline overline-accent overline-accent-dark mb-4">Overline Accent</div>
                         <div class="overline text-muted mb-4">Overline</div>
                         <p class="bodylarge text-muted">Body Large</p>
@@ -314,18 +313,18 @@
 
     </div>
 
-    <div class="section styleguide-section d-flex flex-column align-items-center mb-20">
+    <div class="section styleguide-section d-flex flex-column align-items-center" style="margin-bottom: 60px;">
         <div class="imagery">
 
             <h2 class="section-title-h2">Imagery</h2>
 
-            <p class="body">Picking the perfect image is a skill that comes with time, though there are some tips you can use to whittle down the possible options. </p>
+            <p class="body mt-10">Picking the perfect image is a skill that comes with time, though there are some tips you can use to whittle down the possible options. </p>
 
             <div class="mb-10">
 
                 <h5 class="heading-5 withextrapadding">1. Consider colours and clarity</h5>
 
-                <p class="body">Should you be in a position of choice –&nbsp;where you do not need a <em>specific</em> image but rather just "an image", consider picking one with a similar color profile as the rest of the branding; at a basic level, this means there are colours and tones similar to those in the Colours section above. Further, high-quality, visually sleek and 
+                <p class="body mt-10">Should you be in a position of choice –&nbsp;where you do not need a <em>specific</em> image but rather just "an image", consider picking one with a similar color profile as the rest of the branding; at a basic level, this means there are colours and tones similar to those in the Colours section above. Further, high-quality, visually sleek and 
                     <br>
                     <br>
                     This gives off a more put together and cohesive visual rather than just something we stuck our logo on. 
@@ -336,7 +335,7 @@
                     
                     <div class="col_half">
                         <img 
-                            src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/631608f50eff22a8ee18a1c5_img_sg_image_content_dont.png" 
+                            src="../../public/media/products/Imagery1.png" 
                             loading="lazy"
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/631608f50eff22a8ee18a1c5_img_sg_image_content_dont-p-500.png 500w, 
@@ -354,7 +353,7 @@
 
                     <div class="col_half">
                         <img 
-                            src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/631608ffede28c45ec6b9697_img_sg_image_content_do.png" 
+                            src="../../public/media/products/Imagery1.png" 
                             loading="lazy" 
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="
@@ -381,7 +380,7 @@
 
                 <h5 class="heading-5 withextrapadding">2. Content backgrounds</h5>
 
-                <p class="body">
+                <p class="body mt-10">
                     Often, if you are adding something on top of an image, adding a background is a good idea. This ensures the content you add is legible and confirms to accessibility standards. This is the case even when just the logo is added. The standard here is to use either a DARK&nbsp;or LIGHT&nbsp;background (defined below) with conforming content styles (e.g. light or dark text elements). 
                     <br>
                     <strong>
@@ -398,7 +397,7 @@
                     <div class="col_half">
                         <img 
                             src="
-                            https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160e036a2fa1ffd878fd44_img_sg_background_dont.png" 
+                            ../../public/media/products/Imagery1.png" 
                             loading="lazy" 
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160e036a2fa1ffd878fd44_img_sg_background_dont-p-500.png 500w, 
@@ -416,7 +415,7 @@
 
                     <div class="col_half">
                         <img 
-                            src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160e0dab6ed9c76c5ee57f_img_sg_background_do.png" 
+                            src="../../public/media/products/Imagery1.png" 
                             loading="lazy" 
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160e0dab6ed9c76c5ee57f_img_sg_background_do-p-500.png 500w, 
@@ -441,7 +440,7 @@
 
                 <h5 class="heading-5 withextrapadding">3. Make sure you use the correct logo</h5>
 
-                <p class="body">
+                <p class="body mt-10">
                     There are two colour variants of the logo. One is meant for use on light backgrounds and the other is for use on dark background. See more in the Logo section below.
                 </p>
 
@@ -450,7 +449,7 @@
                     
                     <div class="col_half">
                         <img 
-                            src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160fe23c13ed3682fbd29e_img_sg_logo_dont.png" 
+                            src="../../public/media/products/Imagery1.png" 
                             loading="lazy" 
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160fe23c13ed3682fbd29e_img_sg_logo_dont-p-500.png 500w, 
@@ -468,7 +467,7 @@
 
                     <div class="col_half">
                         <img 
-                            src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160fe23c13ed3682fbd29e_img_sg_logo_dont.png" 
+                            src="../../public/media/products/Imagery1.png" 
                             loading="lazy" 
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160fe23c13ed3682fbd29e_img_sg_logo_dont-p-500.png 500w, 
@@ -494,7 +493,7 @@
 
                 <h5 class="heading-5 withextrapadding">4. Applying atomic principles</h5>
 
-                <p class="body">
+                <p class="body mt-10">
                     As well as the Colours (above), the Elements, the Components (above) and Structures (below) you see on this page can and indeed, should, be used on any imagery or graphics created where applicable.
                 </p>
 
@@ -503,7 +502,7 @@
                     
                     <div class="col_half">
                         <img 
-                            src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/631611295d49d864d6573340_img_sg_atomic_dont.png" 
+                            src="../../public/media/products/Imagery1.png" 
                             loading="lazy" 
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/631611295d49d864d6573340_img_sg_atomic_dont-p-500.png 500w, 
@@ -522,7 +521,7 @@
                     <div class="col_half">
                         <img 
                             src="
-                                https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6316114c6a2fa10e26792324_img_sg_atomic_do.png" 
+                                ../../public/media/products/Imagery1.png" 
                                 loading="lazy" 
                                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                                 srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6316114c6a2fa10e26792324_img_sg_atomic_do-p-500.png 500w, 
@@ -547,12 +546,12 @@
 
     </div>
 
-    <div class="section styleguide-section d-flex flex-center mb-20">
+    <div class="section styleguide-section d-flex flex-center" style="margin-bottom: 60px;">
         <div class="section-container w-container d-flex flex-column structures">
             <h2 class="section-title-h2">Structures</h2>
             <div class="styleguide-subheader-container">
                 <h4 class="section-header heading-4-accent heading-4">Bullet Points</h4>
-                <p class="body">As well we bullet points in text, custom bullet point lists can be used to draw attention to a set of important ideas. There are two custom bullet styles:&nbsp;one used for distinct benefits or included features / content and the other is a generic bullet, taking inspiration from our logo.</p>
+                <p class="body mt-10 mb-10">As well we bullet points in text, custom bullet point lists can be used to draw attention to a set of important ideas. There are two custom bullet styles:&nbsp;one used for distinct benefits or included features / content and the other is a generic bullet, taking inspiration from our logo.</p>
             </div>
             <div class="row">
                 <div class="styleguide-column">
@@ -634,7 +633,7 @@
                     class="bullet-image" 
                     style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
                         transform-style: preserve-3d; filter: brightness(100%);">
-                        <div class="body" style="color: #F5F5F5;">Performance through Partnership</div>
+                        <div class="body text-dark">Performance through Partnership</div>
                 </a>
                 <a data-w-id="61161d7d-6918-54c1-bbd9-0c504a27604c" href="#" class="bullet-wrap d-flex gap-4 mb-2">
                     <img 
@@ -646,7 +645,7 @@
                     class="bullet-image" 
                     style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
                     transform-style: preserve-3d; filter: brightness(100%);">
-                    <div class="body" style="color: #F5F5F5;">Social Value</div>
+                    <div class="body text-dark">Social Value</div>
                 </a>
                 <a data-w-id="61161d7d-6918-54c1-bbd9-0c504a27604c" href="#" class="bullet-wrap d-flex gap-4 mb-2">
                     <img src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/628f42196736c7d3af0623f5_ic_bullet.svg" 
@@ -657,7 +656,7 @@
                     class="bullet-image" 
                     style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
                     transform-style: preserve-3d; filter: brightness(100%);">
-                    <div class="body" style="color: #F5F5F5;">Innovation</div>
+                    <div class="body text-dark">Innovation</div>
                 </a>
                 <a data-w-id="61161d7d-6918-54c1-bbd9-0c504a27604c" href="#" class="bullet-wrap d-flex gap-4 mb-2">
                     <img 
@@ -669,7 +668,7 @@
                     class="bullet-image" 
                     style="transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); 
                     transform-style: preserve-3d; filter: brightness(100%);">
-                    <div class="body" style="color: #F5F5F5;">Though the last pillar is in fact being an “Employer of Choice”. I write more here to demonstrate how longer text looks in this bullet style.</div>
+                    <div class="body text-dark">Though the last pillar is in fact being an “Employer of Choice”. I write more here to demonstrate how longer text looks in this bullet style.</div>
                 </a>
             </div>
             <div class="styleguide-column dark">
@@ -717,9 +716,9 @@
         </div>
         <div class="styleguide-subheader-container mt-5">
             <h4 class="section-header heading-4-accent heading-4">Stand-out Stats</h4>
-            <p class="body">When we want to highlight a figure, we can use this structure. It places the figure at the forefront in a rather graphic fashion. It can be accompanied with an arrow (green point up or red pointing down) to illustrate change.</p></div>
+            <p class="body mt-10 text">When we want to highlight a figure, we can use this structure. It places the figure at the forefront in a rather graphic fashion. It can be accompanied with an arrow (green point up or red pointing down) to illustrate change.</p></div>
             <div class="row">
-                <div class="styleguide-column">
+                <div class="styleguide-column d-flex flex-center">
                     <div class="statisticcontainer">
                         <div class="d-flex gap-2 ">
                             <img 
@@ -727,13 +726,13 @@
                             loading="lazy" 
                             alt="" 
                             class="statisticnumberindicator">
-                            <div class="fs-1">128</div>
+                            <div class="fs-1 stand-out-stats stand-out-stats-first">128</div>
                         </div>
                         <p class="statisticcaption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
                     </div>
                 </div>
-                <div class="styleguide-column dark">
-                    <div class="statisticcontainer">
+                <div class="styleguide-column dark d-flex flex-center">
+                    <div class="statisticcontainer" style="margin-left: 60px;">
                         <div class="d-flex gap-2 ">
                             <img 
                             src="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/62175d4a9792ba48d011d39c_ic_arrow_up.svg" 
@@ -741,25 +740,17 @@
                             width="20" 
                             alt="" 
                             class="statisticnumberindicator">
-                        <div class="fs-1 text-muted">0%</div>
+                        <div class="fs-1 stand-out-stats stand-out-stats-second">0%</div>
                     </div>
-                    <div class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+                    <div class="text-muted statisticcaption">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-
-
-
-
-
     </div>
 
-    <div class="section d-flex flex-column flex-center mb-20">
+    <div class="section d-flex flex-column flex-center" style="margin-bottom: 80px;">
 
         <div class="sections">
 
@@ -814,7 +805,7 @@
         </div>
     </div>
 
-    <div class="section d-flex flex-column flex-center mb-20">
+    <div class="section d-flex flex-column flex-center" style="margin-bottom: 60px;">
 
         <div class="sections">
 
@@ -827,7 +818,7 @@
                 <div class="d-flex gap-10">
                     <template v-for="(socialValue, index) in socialValues" :key="index">
                         <div class="d-flex flex-column gap-6">
-                            <img class="h-200px" :src="getAssetPath(socialValue.src)" alt="">
+                            <img class="h-200px" style="object-fit: cover;" :src="getAssetPath(socialValue.src)" alt="">
                             <Card1
                                 class="w-300px"
                                 :title="socialValue.title"
@@ -843,11 +834,11 @@
         </div>
     </div>
 
-    <div class="section d-flex flex-column flex-center mb-20">
+    <div class="section d-flex flex-column flex-center" style="margin-bottom: 60px;">
         <div class="sections">
             <h2 class="section-title-h2">Logo</h2>
 
-            <p class="body">
+            <p class="body mt-10">
                 Depending on its context,&nbsp;surroundings and size, the&nbsp;company logo can be scaled to&nbsp;provide more or less information.&nbsp;
                 <br>
                 ‍<br>

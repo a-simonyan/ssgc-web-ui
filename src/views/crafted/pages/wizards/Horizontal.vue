@@ -140,6 +140,7 @@ import { getAssetPath } from "@/core/helpers/assets";
 import { computed, defineComponent, onMounted, ref } from "vue";
 import { StepperComponent } from "@/assets/ts/components";
 import { useForm } from "vee-validate";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import * as Yup from "yup";
 import Step1 from "@/components/wizard/steps/Step1.vue";

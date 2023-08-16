@@ -296,6 +296,7 @@ import Step5 from "@/components/wizard/steps/Step5.vue";
 import { StepperComponent } from "@/assets/ts/components";
 import * as Yup from "yup";
 import { useForm } from "vee-validate";
+//@ts-ignore
 import Swal from "sweetalert2/dist/sweetalert2.js";
 import { useBodyStore } from "@/stores/body";
 
