@@ -44,13 +44,13 @@
             <template v-for="(header, idx) in  tableHeader.slice(2) " v-slot:[header.columnName]="{ row: invoice }">
                 <div :key="idx" class="time-table-wrapper">
                     <div 
-                    v-if="(new Date().getHours() > 12 ? header.columnName === `${new Date().getHours() % 12}: 00PM` : header.columnName === `${new Date().getHours()}:00 AM` )"
-       :style="{
-    
-           left: `${new Date().getMinutes() / 0.6}%`
-       }"
-      style="height: 73px; top:-37px; border-left: 2px solid #E96000; position: absolute;" 
-  ></div>
+                        v-if="(new Date().getHours() > 12 ? header.columnName === `${new Date().getHours() % 12}: 00PM` : header.columnName === `${new Date().getHours()}:00 AM` )"
+                        :style="{
+                        
+                            left: `${new Date().getMinutes() / 0.6}%`
+                        }"
+                        style="height: 73px; top:-37px; border-left: 2px solid #E96000; position: absolute;" 
+                    ></div>
                     <span 
                         v-if="invoice[header.columnName]?.time" 
                         @click="() => openStatusModal(invoice[header.columnName])" 
