@@ -43,6 +43,14 @@
 
             <template v-for="(header, idx) in  tableHeader.slice(2) " v-slot:[header.columnName]="{ row: invoice }">
                 <div :key="idx" class="time-table-wrapper">
+                    <div 
+                    v-if="(new Date().getHours() > 12 ? header.columnName === `${new Date().getHours() % 12}: 00PM` : header.columnName === `${new Date().getHours()}:00 AM` )"
+       :style="{
+    
+           left: `${new Date().getMinutes() / 0.6}%`
+       }"
+      style="height: 73px; top:-37px; border-left: 2px solid #E96000; position: absolute;" 
+  ></div>
                     <span 
                         v-if="invoice[header.columnName]?.time" 
                         @click="() => openStatusModal(invoice[header.columnName])" 
@@ -60,7 +68,7 @@
                         />
                         <img 
                             v-else-if="!invoice[header.columnName]?.avatar && invoice[header.columnName]?.isAssigned" 
-                            src="media/avatars/blank.png" 
+                            src="/media/avatars/blank.png" 
                             class="timeline-image" 
                         />
                         <KTIcon
@@ -97,6 +105,7 @@
 import { defineComponent, ref, reactive } from 'vue';
 import Datatable from "@/components/kt-datatable/KTDataTable.vue";
 import StatusTable from "@/components/modals/tables/status-modal.vue"
+import moment from "moment";
 
 interface Filter {
     status: string;
@@ -150,6 +159,7 @@ const tableHeader = ref([
         sortEnabled: false,
     }))
 ]);
+console.log("asdsa", tableHeader.value.slice(2), new Date().getHours() > 12 ? `${new Date().getHours() % 12}: 00PM` : `${new Date().getHours()}:00 AM`);
 
 const statuses = ref({
     "Future": {

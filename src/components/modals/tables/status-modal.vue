@@ -26,7 +26,7 @@
                             <span 
                                 class="status-section"
                                 :style="{ 
-                                    backgroundColor: statuses[data?.status]?.color,
+                                    backgroundColor: statuses[data?.status as string]?.color,
                                     border: data?.status === 'Resolved' ? '2px solid red' : 'none' 
                                 }"
                             >
@@ -159,12 +159,22 @@ import { defineComponent, defineProps, withDefaults, defineEmits, ref } from 'vu
 
 interface Props {
     modelValue: boolean
-    data: object
+    data: {
+        status: string,
+        assigneeImg: string,
+        assigneeName: string,
+        openTime: string,
+        closeTime: string,
+        phoneNumber: string,
+        controllerTime: string,
+        callerName: string,
+        avatar: string
+    } | null
     handleClose: () => void
 }
 const props = withDefaults(defineProps<Props>(), {
     modelValue: false,
-    data: {},
+    data: null,
     handleClose: function(){}
 })
 const emit = defineEmits(['update:modelValue']); 

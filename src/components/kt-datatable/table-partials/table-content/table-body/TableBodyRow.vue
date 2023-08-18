@@ -1,11 +1,4 @@
 <template>
-  <div 
-      :style="{
-          left: `${getCurrentTime()}px`
-      }"
-      style="height: 400px; border-left: 2px solid #E96000; position: absolute;" 
-  >
-  </div>
   <tbody class="fw-semibold text-gray-600">
     <template v-for="(row, i) in data" :key="i">
       <tr 
@@ -104,17 +97,6 @@ export default defineComponent({
       return status;
     }
 
-    const getCurrentTime = () => {
-      const hoursDistance = 200,
-            currentHour = (parseInt(result.split(':')[0]) + 2.7) * hoursDistance,
-            currentMinute = Math.ceil(parseInt(result.split(':')[1]) / 0.6) * hoursDistance / 100;
-
-            console.log('Hour ', currentHour);
-            console.log('Minute ', currentMinute);
-
-      return currentHour + currentMinute;
-    }
-
     props.data.forEach(value => {
 
       checkStatus(value);
@@ -126,7 +108,6 @@ export default defineComponent({
       selectedItems,
       onChange,
       checkStatus,
-      getCurrentTime,
       result
     };
   },
