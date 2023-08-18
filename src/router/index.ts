@@ -24,6 +24,17 @@ const routes: Array<RouteRecordRaw> = [
           breadcrumbs: ["Home"],
         },
       },
+
+      {
+        path: "/t&a",
+        name: "t&a",
+        component: () => import("@/views/T&A.vue"),
+        meta: {
+          pageTitle: "T&A",
+          breadcrumbs: ["T&A"],
+        },
+      },
+
       {
         path: "/builder",
         name: "builder",

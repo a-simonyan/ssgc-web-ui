@@ -44,7 +44,7 @@ html {
   
   .container-xxl {
       margin: 0 !important;
-      max-width: 1415px !important;
+      max-width: 2015px !important;
   }
   
   .card-wrapper {
@@ -121,6 +121,10 @@ html {
       padding: 30px 40px 20px;
   }
   
+  .task-filer-dropdown {
+      max-width: 165px;
+      width: 100%;
+  }
   
   .styleguide-subheader-container,
   .styleguide-column-container,
@@ -379,6 +383,13 @@ html {
       }
   }
   
+  .btn-hover:hover {
+      color: #e47d38 !important;
+      background-color: rgba(253, 167, 109, .13) !important;
+  }
+  
+  
+  
   .styleguide-image-statusbar.cc-dont {
       color: #c20027;
       border-top-color: #c20027;
@@ -413,6 +424,60 @@ html {
       justify-content: center;
   }
   
+  .calendar-filter {
+      width: min-content;
+      padding: 12px;
+      gap: 10px;
+      background-color: #F1F1F2;
+      border-radius: 6px;
+  }
+  
+  .text-site-color {
+      display: block;
+      width: 148px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      border-radius: 4px;
+      background-color: #FFE9DB;
+      white-space: nowrap;
+      padding: 8px 10px;
+  }
+  
+  .time-table-wrapper {
+      width: 200px;
+      position: relative;
+  }
+  
+  .select-date {
+      background-color: var(--bs-gray-100);
+      color: var(--bs-gray-700);
+  }
+  
+  .time-log {
+      max-width: 120px;
+      width: 100%;
+      border-radius: 50px;
+      display: flex;
+      justify-content: space-between;
+      padding: 6px 7px;
+      position: absolute;
+      top: -21px;
+  }
+  
+  .timeline-state-wrapper {
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      padding: 0 7px;
+  }
+  
+  .timeline-image {
+      height: 30px;
+      width: 30px;
+      border-radius: 50%;
+  }
   
   
   body {
@@ -428,6 +493,18 @@ html {
   
   canvas {
       user-select: none;
+  }
+  
+  .text-end {
+      text-align: left !important;
+  }
+  
+  td:nth-child(3) {
+      border-right: 2px solid #fff !important;
+  }
+  
+  th, td:not(td:nth-child(1)) {
+      padding-left: 20px !important;
   }
   
   // Angular integration

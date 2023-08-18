@@ -40,7 +40,7 @@
                     :icon-name="item.keenthemesIcon"
                     icon-class="fs-2x"
                   />
-                  <p>Dashboard</p>
+                  <p>{{ item.heading === 'layoutBuilder' ? 'Dashboard' : 'Calls' }}</p>
                 </span>
               </router-link>
             </div>

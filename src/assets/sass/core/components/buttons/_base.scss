@@ -81,6 +81,16 @@
 	outline: none;
 }
 
+.export-btn {
+	display: flex;
+	align-items: center;
+	border: none;
+	color: var(--bs-gray-900) !important;
+	font-weight: 600 !important;
+	border-radius: 6px;
+	padding: 12px;
+}
+
 // Icons
 .btn {
 	// Font icon

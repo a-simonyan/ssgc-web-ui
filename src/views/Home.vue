@@ -8,7 +8,7 @@
             <div class="d-flex align-items-baseline gap-20">
                 <div class="d-flex flex-column gap-14">
                     <p class="description body text-muted">Our new branding means a unified aesthetic. Across our websites, software, documentation and in print, this page serves as a source of truth.</p>
-                    <a href="" class="buttonoutlineddark w-button">Contact design team</a>
+                    <a href="" class="buttonoutlineddark w-button btn-hover">Contact design team</a>
                 </div>
                 <div class="d-flex flex-column">
                     <div v-for="(style, index) in styleList" :key="index">
@@ -182,7 +182,7 @@
                                 ></Card4>
     
                                 <div>
-                                    <a class="component-button" 
+                                    <a class="component-button btn-hover" 
                                         :style="{ 
                                             border: button.borderLight, 
                                             backgroundColor: button.btnBackgroundColorLight, 
@@ -197,7 +197,7 @@
                     <div>
                         <template  v-for="(button, index) in buttons" :key="index">
                             <div class="button-wrapper">
-                                    <a class="component-button" 
+                                    <a class="component-button btn-hover" 
                                         :style="{ 
                                             border: button.borderDark, 
                                             backgroundColor: button.btnBackgroundColorDark, 
@@ -283,7 +283,7 @@
                             <input type="text" class="text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name">
                             <label for="email" class="field-label">Email Address</label>
                             <input type="email" class="text-field w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email address" id="email">
-                            <input type="submit" value="Submit" data-wait="Please wait..." class="buttonfilled w-button mt-4">
+                            <input type="submit" value="Submit" data-wait="Please wait..." class="buttonfilled w-button mt-4 btn-hover">
                         </form>
                     </div>
     
@@ -301,7 +301,7 @@
                             <input type="text" class="text-field text-field-dark w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="name">
                             <label for="email" class="field-label field-label-dark">Email Address</label>
                             <input type="email" class="text-field text-field-dark w-input" maxlength="256" name="email" data-name="Email" placeholder="Enter your email address" id="email">
-                            <input type="submit" value="Submit" data-wait="Please wait..." class="buttonfilled buttonfilled-dark w-button mt-4">
+                            <input type="submit" value="Submit" data-wait="Please wait..." class="buttonfilled buttonfilled-dark w-button mt-4 btn-hover">
                         </form>
                     </div>
                     
@@ -396,8 +396,7 @@
                     
                     <div class="col_half">
                         <img 
-                            src="
-                            ../../public/media/products/Imagery1.png" 
+                            src="../../public/media/products/Imagery1.png" 
                             loading="lazy" 
                             sizes="(max-width: 479px) 100vw, (max-width: 767px) 90vw, (max-width: 991px) 359px, 465px" 
                             srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/63160e036a2fa1ffd878fd44_img_sg_background_dont-p-500.png 500w, 
