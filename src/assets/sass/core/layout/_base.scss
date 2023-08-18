@@ -51,10 +51,6 @@ html {
       display: flex;
       align-items: center;
   
-      .card-section {
-          width: 73% !important;
-      }
-  
       h1 {
           font-size: 3rem;
           line-height: 62px;
@@ -103,7 +99,7 @@ html {
       }
   
       p {
-          max-width: 956px;
+        //   max-width: 956px;
           width: 100%;
       }
   }
@@ -126,14 +122,17 @@ html {
       width: 100%;
   }
   
+  .card-section,
   .styleguide-subheader-container,
   .styleguide-column-container,
   .components-wrapper,
   .imagery,
   .structures,
-  .sections
+  .sections,
+  .second-container-section,
+  .colours 
    {
-      width: 71%;
+      width: 55% !important;
   }
   
   .heading-4 {
@@ -366,10 +365,6 @@ html {
   
   .section {
       margin: 20px 0;
-  
-      .colours {
-          width: 71%;
-      }
   }
   
   .grid {

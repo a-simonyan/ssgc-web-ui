@@ -23,7 +23,7 @@
     </div>
 
     <div class="section-container w-container" style="margin-bottom: 60px;">
-        <div>
+        <div class="second-container-section">
             <h2 class="section-title-h2">Philosophy</h2>
             <h4 class="heading-4 alignleft withtoppadding">Core message</h4>
             <p class="body mt-10">
@@ -159,11 +159,13 @@
     <div class="section d-flex flex-column flex-center" style="margin-bottom: 60px;">
         <div class="components-wrapper">
             <div class="components">
-                <h2 class="section-title-h2">Components</h2>
-                <div class="styleguide-subheader-container">
+                <h2 class="section-title-h2 mb-10">Components</h2>
+                <div class="">
                     <h4 class="section-header heading-4-accent heading-4">Buttons</h4>
                     <p class="body section-header-body">
-                        The choice of button depends on it’s importance and therefore, its desired emphasis.
+                        The choice of button depends on it’s importance and therefore, its desired 
+                        <br>
+                        emphasis.
                     </p>
                 </div>
             </div>
@@ -208,7 +210,7 @@
                     </div>
                 </div>
     
-                <div class="styleguide-subheader-container text-elements">
+                <div class=" text-elements">
                     <h4 class="section-header heading-4-accent heading-4">Text Elements</h4>
                     <p class="body mt-10">We use one font throughout the design:&nbsp;Public Sans. You can download it for free from 
                         <a href="https://fonts.google.com/specimen/Public+Sans?query=public+sans" target="_blank">Google Fonts here</a>.
@@ -262,9 +264,9 @@
                     <p class="caption text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
                 </div>
     
-                <div class="styleguide-subheader-container">
+                <div class="">
                     <h4 class="section-header heading-4-accent heading-4">Text Fields &amp;&nbsp;Forms</h4>
-                    <p class="body section-header-body">Text fields allow users to enter text into a UI. They typically appear in forms and dialogs. Our text fields clearly indicate when they are being hovered and focussed.</p>
+                    <p class="body section-header-body">Text fields allow users to enter text into a UI. They typically appear in forms and <br> dialogs. Our text fields clearly indicate when they are being hovered and focussed.</p>
                 </div>
     
                 <div class="d-flex">
@@ -547,8 +549,8 @@
 
     <div class="section styleguide-section d-flex flex-center" style="margin-bottom: 60px;">
         <div class="section-container w-container d-flex flex-column structures">
-            <h2 class="section-title-h2">Structures</h2>
-            <div class="styleguide-subheader-container">
+            <h2 class="section-title-h2 mb-10">Structures</h2>
+            <div class="">
                 <h4 class="section-header heading-4-accent heading-4">Bullet Points</h4>
                 <p class="body mt-10 mb-10">As well we bullet points in text, custom bullet point lists can be used to draw attention to a set of important ideas. There are two custom bullet styles:&nbsp;one used for distinct benefits or included features / content and the other is a generic bullet, taking inspiration from our logo.</p>
             </div>
@@ -753,7 +755,7 @@
 
         <div class="sections">
 
-            <h2 class="section-title-h2">Sections</h2>
+            <h2 class="section-title-h2 mb-10">Sections</h2>
 
             <h4 class="section-header heading-4-accent heading-4">Feature:&nbsp;Image &amp;&nbsp;Text (horizontal)</h4>
 
@@ -770,10 +772,10 @@
                         srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6216775449f9767ee21ad886_fake_screen-p-500.png 500w, 
                         https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6216775449f9767ee21ad886_fake_screen-p-800.png 800w, 
                         https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6216775449f9767ee21ad886_fake_screen.png 865w" 
-                        class="featureimage"
+                        class="featureimage w-650px"
                     >
                     <Card1
-                        class="w-450px d-flex"
+                        class="w-650px d-flex"
                         :title="'Heading'"
                         :description="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.'"
                         :isReadMore="true"
@@ -782,7 +784,7 @@
     
                 <div class="d-flex gap-8">
                     <Card1
-                        class="w-450px d-flex"
+                        class="w-650px d-flex"
                         :title="'Heading'"
                         :description="'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat. Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet. Nunc ut sem vitae risus tristique posuere.'"
                         :isReadMore="true"
@@ -795,7 +797,7 @@
                         srcset="https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6216775449f9767ee21ad886_fake_screen-p-500.png 500w, 
                         https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6216775449f9767ee21ad886_fake_screen-p-800.png 800w, 
                         https://uploads-ssl.webflow.com/609cf3f6efc015e88e460fe3/6216775449f9767ee21ad886_fake_screen.png 865w" 
-                        class="featureimage"
+                        class="featureimage w-650px"
                     >
                 </div>
             </div>
@@ -808,15 +810,18 @@
 
         <div class="sections">
 
-            <h2 class="section-title-h2">Item:  Image & Text (vertical)</h2>
+            <h4 class="section-header heading-4-accent heading-4">Item:  Image & Text (vertical)</h4>
 
-            <p class="body section-header-body w-500px">There are many combinations of base components to create something like the “Image&Text(Vertical)” item. Here are three examples demonstrated throughout the site.</p>
+            <p class="body section-header-body">There are many combinations of base components to create something like the <br>
+                “Image&Text(Vertical)” item. Here are three examples demonstrated throughout the <br>
+                site.
+            </p>
 
             <div class="d-flex">
 
                 <div class="d-flex gap-10">
                     <template v-for="(socialValue, index) in socialValues" :key="index">
-                        <div class="d-flex flex-column gap-6">
+                        <div class="d-flex flex-column gap-6 flex-between w-100%">
                             <img class="h-200px" style="object-fit: cover;" :src="getAssetPath(socialValue.src)" alt="">
                             <Card1
                                 class="w-300px"
