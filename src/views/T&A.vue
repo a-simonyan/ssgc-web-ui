@@ -26,7 +26,7 @@
             <!--end::Input-->
         </div>
 
-        <Datatable :header="tableHeader" :data="tableData1" :items-per-page="5" :items-per-page-dropdown-enabled="false" class="table-data">
+        <Datatable :header="tableHeader" :data="tableData1" :items-per-page="10" :items-per-page-dropdown-enabled="false" class="table-data">
             <template v-slot:order="{ row: invoice }">
                 {{ invoice.order }}
             </template>
@@ -238,6 +238,45 @@ const tableData1 = ref([
             assigneeName: 'Jack Jones'
         }
     },
+
+    {
+        order: "102445766",
+        color: "site-color",
+        site: "Cadburys B’Ham",
+        officer: "JAMES123456",
+        "5: 00AM": {
+            callerName: 'Azhar Jamal',
+            phoneNumber: '0778888766977',
+            title: "asds",
+            time: "05:30",
+            status: 'Resolved',
+            callType: '',
+            timelineState: "always",
+            avatar: 'media/avatars/300-12.jpg',
+            isAssigned: true,
+            openTime: '11:20am',
+            controllerTime: '11:30am',
+            closeTime: '11:35am',
+            assigneeImg: 'media/avatars/300-27.jpg',
+            assigneeName: 'John Doe'
+        },
+        "6: 00AM": {
+            callerName: 'Azhar Jamal',
+            phoneNumber: '077888899977',
+            title: "asds",
+            time: "06:15",
+            status: 'Completed',
+            callType: '',
+            timelineState: "byControlRoom",
+            avatar: 'media/avatars/300-12.jpg',
+            isAssigned: false,
+            openTime: '11:20am',
+            controllerTime: '11:30am',
+            closeTime: '11:35am',
+            assigneeImg: 'media/avatars/300-25.jpg',
+            assigneeName: 'Jack Jones'
+        }
+    },
     
     {
         order: "102445788",
@@ -278,6 +317,49 @@ const tableData1 = ref([
             assigneeName: 'Jack Jones'
         }
     },
+
+
+    {
+        order: "102445788",
+        color: "site-color",
+        site: "Cadburys B’Ham",
+        officer: "JAMES12345",
+        
+        "4: 00AM": {
+            callerName: 'Azhar Jamal',
+            phoneNumber: '077888891232',
+            title: "asds",
+            time: "04:39",
+            status: 'No show',
+            callType: '',
+            timelineState: "",
+            avatar: '',
+            isAssigned: true,
+            openTime: '11:20am',
+            controllerTime: '11:30am',
+            closeTime: '11:35am',
+            assigneeImg: 'media/avatars/300-25.jpg',
+            assigneeName: 'James Doe'
+        },
+        "5: 00AM": {
+            callerName: 'Azhar Jamal',
+            phoneNumber: '077812399977',
+            title: "asds",
+            time: "05:15",
+            status: 'In Critical Window',
+            callType: '',
+            timelineState: "byHotline",
+            avatar: 'media/avatars/300-12.jpg',
+            isAssigned: false,
+            openTime: '11:20am',
+            controllerTime: '11:30am',
+            closeTime: '11:35am',
+            assigneeImg: 'media/avatars/300-25.jpg',
+            assigneeName: 'Jack Jones'
+        }
+    },
+
+
     {
         order: "102445788",
         color: "site-color",
@@ -316,6 +398,48 @@ const tableData1 = ref([
             assigneeName: 'John Jack'
         }
     },
+
+
+    {
+        order: "102445788",
+        color: "site-color",
+        site: "Cadburys B’Ham",
+        officer: "GIANT75346",
+        "3: 00AM": {
+            callerName: 'Azhar Jamal',
+            phoneNumber: '0778888766977',
+            title: "asds",
+            time: "03:45",
+            status: "Future",
+            callType: '',
+            timelineState: "byControlRoom",
+            avatar: 'media/avatars/300-13.jpg',
+            isAssigned: true,
+            openTime: '11:20am',
+            controllerTime: '11:30am',
+            closeTime: '11:35am',
+            assigneeImg: 'media/avatars/300-25.jpg',
+            assigneeName: 'Jack Johnes'
+        },
+        "2: 00AM": {
+            callerName: 'Azhar Jamal',
+            phoneNumber: '077888899977',
+            title: "asds",
+            time: "02:55",
+            status: "In Window",
+            callType: '',
+            timelineState: "byApp",
+            avatar: 'media/avatars/300-18.jpg',
+            isAssigned: true,
+            openTime: '11:20am',
+            controllerTime: '11:30am',
+            closeTime: '11:35am',
+            assigneeImg: 'media/avatars/300-25.jpg',
+            assigneeName: 'John Jack'
+        }
+    },
+
+
     // {
     //     date: "Oct 24, 2020",
     //     order: "423445721",
